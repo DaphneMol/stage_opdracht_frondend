@@ -35,3 +35,30 @@ h3 {
   width: 25%;
   float: right;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .header {
+    max-width: 100%;
+    padding: 0;
+    height: 150px;
+    color: #333;
+  }
+  .header ul {
+    float: left;
+    padding-top: 5px;
+    width: 100%;
+  }
+  .logo {
+    display: block;
+    padding-top: 10px;
+  }
+  .content {
+    display: inline;
+  }
+  img {
+    max-width: 100%;
+  }
+  .sidebar {
+    width: 100%;
+  }
+}

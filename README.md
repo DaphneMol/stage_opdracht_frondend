@@ -8,3 +8,4 @@ display: inline-block; toevegen bij .content
 float: right; toeveogen bij .sidebar
 
 Opdracht 3:
+2 Media Queries toegevoegd in style.css

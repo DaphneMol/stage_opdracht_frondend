@@ -59,6 +59,32 @@ h3 {
     max-width: 100%;
   }
   .sidebar {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .header {
+    max-width: 100%;
+    padding: 0;
+    color: #333;
+  }
+  .header ul {
+    float: left;
+    padding-top: 10px;
+    width: 80%;
+  }
+  .logo {
+    display: block;
+    padding-top: 10px;
+  }
+  .content {
+    display: inline;
+  }
+  img {
     width: 100%;
+  }
+  .sidebar {
+    width: 90%;
   }
 }
